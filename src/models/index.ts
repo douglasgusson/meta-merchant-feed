@@ -1,0 +1,24 @@
+/* istanbul ignore file */
+export { AgeGroup } from "./age-group";
+export { Availability } from "./availability";
+export { Channel } from "./channel";
+export { Color } from "./color";
+export { Condition } from "./condition";
+export { CustomLabels } from "./custom-labels";
+export { CustomNumbers } from "./custom-numbers";
+export { DateRange } from "./date-range";
+export { Description } from "./description";
+export { Feed } from "./feed";
+export { Gender } from "./gender";
+export { Integer } from "./integer";
+export { Link } from "./link";
+export { Material } from "./material";
+export { Pattern } from "./pattern";
+export { Price } from "./price";
+export { Product } from "./product";
+export { RichTextDescription } from "./rich-text-description";
+export { Shipping } from "./shipping";
+export { Status } from "./status";
+export { Title } from "./title";
+export { ValueWithUnit } from "./value-with-unit";
+export { Video } from "./video";
