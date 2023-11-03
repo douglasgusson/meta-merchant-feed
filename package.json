@@ -1,6 +1,6 @@
 {
   "name": "meta-merchant-feed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple library to generate Meta Merchant XML Feed",
   "author": "Douglas Gusson",
   "license": "MIT",
