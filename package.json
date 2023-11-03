@@ -1,0 +1,59 @@
+{
+  "name": "meta-merchant-feed",
+  "version": "0.1.0",
+  "description": "A simple library to generate Meta Merchant XML Feed",
+  "author": "Douglas Gusson",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "meta",
+    "facebook",
+    "merchant",
+    "feed",
+    "xml",
+    "product",
+    "products",
+    "shopping"
+  ],
+  "homepage": "https://github.com/douglasgusson/meta-merchant-feed/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douglasgusson/meta-merchant-feed/"
+  },
+  "bugs": {
+    "url": "https://github.com/douglasgusson/meta-merchant-feed/issues"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "prepare": "husky install && npm run build",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prettier": "prettier --write .",
+    "lint": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "jest ./test",
+    "test:coverage": "jest --coverage ./test",
+    "test:watch": "jest --watch ./test",
+    "prebuild": "npm run clean",
+    "clean": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
